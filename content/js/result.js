@@ -54,7 +54,7 @@ $(function(){
     var v2 = getParameterByName('v2');
     var v3 = getParameterByName('v3');
     var v4 = getParameterByName('v4');
-    var v5 = getParameterByName('v4');
+    var v5 = getParameterByName('v5');
 
     setChart(v1, v2, v3, v4, v5);
 });
