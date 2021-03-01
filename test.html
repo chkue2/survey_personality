@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="/content/lib/jquery-3.5.1-slim.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="inner">
+                <div class="qst-box">
+                    <p class="qst">
+                        다른 사람이 나보다 일을 더 잘한다면 나는 실패자가 된 것 같다.
+                    </p>
+                    <label class="qst_val" for="qst-1-1">1</label><input type="radio" name="qst-1" id="qst-1-1" value=1 checked>
+                    <label class="qst_val" for="qst-1-2">2</label><input type="radio" name="qst-1" id="qst-1-2" value=2>
+                    <label class="qst_val" for="qst-1-3">3</label><input type="radio" name="qst-1" id="qst-1-3" value=3>
+                    <label class="qst_val" for="qst-1-4">4</label><input type="radio" name="qst-1" id="qst-1-4" value=4>
+                    <label class="qst_val" for="qst-1-5">5</label><input type="radio" name="qst-1" id="qst-1-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        내가 항상 잘 해내지 않는다면 다른 사람들은 나를 존중해주지 않을 것이댜.
+                    </p>
+                    <label class="qst_val" for="qst-2-1">1</label><input type="radio" name="qst-2" id="qst-2-1" value=1 checked>
+                    <label class="qst_val" for="qst-2-2">2</label><input type="radio" name="qst-2" id="qst-2-2" value=2>
+                    <label class="qst_val" for="qst-2-3">3</label><input type="radio" name="qst-2" id="qst-2-3" value=3>
+                    <label class="qst_val" for="qst-2-4">4</label><input type="radio" name="qst-2" id="qst-2-4" value=4>
+                    <label class="qst_val" for="qst-2-5">5</label><input type="radio" name="qst-2" id="qst-2-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나는 깔끔하게 정리 정돈하는 사람이 되기 위해 노력한다.
+                    </p>
+                    <label class="qst_val" for="qst-3-1">1</label><input type="radio" name="qst-3" id="qst-3-1" value=1 checked>
+                    <label class="qst_val" for="qst-3-2">2</label><input type="radio" name="qst-3" id="qst-3-2" value=2>
+                    <label class="qst_val" for="qst-3-3">3</label><input type="radio" name="qst-3" id="qst-3-3" value=3>
+                    <label class="qst_val" for="qst-3-4">4</label><input type="radio" name="qst-3" id="qst-3-4" value=4>
+                    <label class="qst_val" for="qst-3-5">5</label><input type="radio" name="qst-3" id="qst-3-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        깔끔하게 정리 정돈하는 것은 나에게 중요하다.
+                    </p>
+                    <label class="qst_val" for="qst-4-1">1</label><input type="radio" name="qst-4" id="qst-4-1" value=1 checked>
+                    <label class="qst_val" for="qst-4-2">2</label><input type="radio" name="qst-4" id="qst-4-2" value=2>
+                    <label class="qst_val" for="qst-4-3">3</label><input type="radio" name="qst-4" id="qst-4-3" value=3>
+                    <label class="qst_val" for="qst-4-4">4</label><input type="radio" name="qst-4" id="qst-4-4" value=4>
+                    <label class="qst_val" for="qst-4-5">5</label><input type="radio" name="qst-4" id="qst-4-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        어떤 일을 만족스럽게 해내려면 시간이 무척 오래 걸린다.
+                    </p>
+                    <label class="qst_val" for="qst-5-1">1</label><input type="radio" name="qst-5" id="qst-5-1" value=1 checked>
+                    <label class="qst_val" for="qst-5-2">2</label><input type="radio" name="qst-5" id="qst-5-2" value=2>
+                    <label class="qst_val" for="qst-5-3">3</label><input type="radio" name="qst-5" id="qst-5-3" value=3>
+                    <label class="qst_val" for="qst-5-4">4</label><input type="radio" name="qst-5" id="qst-5-4" value=4>
+                    <label class="qst_val" for="qst-5-5">5</label><input type="radio" name="qst-5" id="qst-5-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나는 신중을 기해서 했던 일에 대해서도 제대로 되지 않았다고 느낄 때가 자주 있다.
+                    </p>
+                    <label class="qst_val" for="qst-6-1">1</label><input type="radio" name="qst-6" id="qst-6-1" value=1 checked>
+                    <label class="qst_val" for="qst-6-2">2</label><input type="radio" name="qst-6" id="qst-6-2" value=2>
+                    <label class="qst_val" for="qst-6-3">3</label><input type="radio" name="qst-6" id="qst-6-3" value=3>
+                    <label class="qst_val" for="qst-6-4">4</label><input type="radio" name="qst-6" id="qst-6-4" value=4>
+                    <label class="qst_val" for="qst-6-5">5</label><input type="radio" name="qst-6" id="qst-6-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        부모님은 늘 나의 장래에 대해 나 자신보다 더 큰 기대를 갖고 계셨다.
+                    </p>
+                    <label class="qst_val" for="qst-7-1">1</label><input type="radio" name="qst-7" id="qst-7-1" value=1 checked>
+                    <label class="qst_val" for="qst-7-2">2</label><input type="radio" name="qst-7" id="qst-7-2" value=2>
+                    <label class="qst_val" for="qst-7-3">3</label><input type="radio" name="qst-7" id="qst-7-3" value=3>
+                    <label class="qst_val" for="qst-7-4">4</label><input type="radio" name="qst-7" id="qst-7-4" value=4>
+                    <label class="qst_val" for="qst-7-5">5</label><input type="radio" name="qst-7" id="qst-7-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나의 부모님은 모든 면에서 내가 최고이길 바라셨다.
+                    </p>
+                    <label class="qst_val" for="qst-8-1">1</label><input type="radio" name="qst-8" id="qst-8-1" value=1 checked>
+                    <label class="qst_val" for="qst-8-2">2</label><input type="radio" name="qst-8" id="qst-8-2" value=2>
+                    <label class="qst_val" for="qst-8-3">3</label><input type="radio" name="qst-8" id="qst-8-3" value=3>
+                    <label class="qst_val" for="qst-8-4">4</label><input type="radio" name="qst-8" id="qst-8-4" value=4>
+                    <label class="qst_val" for="qst-8-5">5</label><input type="radio" name="qst-8" id="qst-8-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나는 아주 높은 목표를 가지고 있다.
+                    </p>
+                    <label class="qst_val" for="qst-9-1">1</label><input type="radio" name="qst-9" id="qst-9-1" value=1 checked>
+                    <label class="qst_val" for="qst-9-2">2</label><input type="radio" name="qst-9" id="qst-9-2" value=2>
+                    <label class="qst_val" for="qst-9-3">3</label><input type="radio" name="qst-9" id="qst-9-3" value=3>
+                    <label class="qst_val" for="qst-9-4">4</label><input type="radio" name="qst-9" id="qst-9-4" value=4>
+                    <label class="qst_val" for="qst-9-5">5</label><input type="radio" name="qst-9" id="qst-9-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나는 무슨 일에서든지 최고가 아니면 싫다.
+                    </p>
+                    <label class="qst_val" for="qst-10-1">1</label><input type="radio" name="qst-10" id="qst-10-1" value=1 checked>
+                    <label class="qst_val" for="qst-10-2">2</label><input type="radio" name="qst-10" id="qst-10-2" value=2>
+                    <label class="qst_val" for="qst-10-3">3</label><input type="radio" name="qst-10" id="qst-10-3" value=3>
+                    <label class="qst_val" for="qst-10-4">4</label><input type="radio" name="qst-10" id="qst-10-4" value=4>
+                    <label class="qst_val" for="qst-10-5">5</label><input type="radio" name="qst-10" id="qst-10-5" value=5>
+                </div>
+
+                <div class="qst-box">
+                    <p class="qst">
+                        나 혼자 있을 때에만 진정으로 편안한 느낌이 든다.
+                    </p>
+                    <label class="qst_val" for="qst-11-1">1</label><input type="radio" name="qst-11" id="qst-11-1" value=1 checked>
+                    <label class="qst_val" for="qst-11-2">2</label><input type="radio" name="qst-11" id="qst-11-2" value=2>
+                    <label class="qst_val" for="qst-11-3">3</label><input type="radio" name="qst-11" id="qst-11-3" value=3>
+                    <label class="qst_val" for="qst-11-4">4</label><input type="radio" name="qst-11" id="qst-11-4" value=4>
+                    <label class="qst_val" for="qst-11-5">5</label><input type="radio" name="qst-11" id="qst-11-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나는 실패한 일에 대해서는 다른 사람들에게 말하지 않는다.
+                    </p>
+                    <label class="qst_val" for="qst-12-1">1</label><input type="radio" name="qst-12" id="qst-12-1" value=1 checked>
+                    <label class="qst_val" for="qst-12-2">2</label><input type="radio" name="qst-12" id="qst-12-2" value=2>
+                    <label class="qst_val" for="qst-12-3">3</label><input type="radio" name="qst-12" id="qst-12-3" value=3>
+                    <label class="qst_val" for="qst-12-4">4</label><input type="radio" name="qst-12" id="qst-12-4" value=4>
+                    <label class="qst_val" for="qst-12-5">5</label><input type="radio" name="qst-12" id="qst-12-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        종종 나의 외모에 대해 신경을 쓴다.
+                    </p>
+                    <label class="qst_val" for="qst-13-1">1</label><input type="radio" name="qst-13" id="qst-13-1" value=1 checked>
+                    <label class="qst_val" for="qst-13-2">2</label><input type="radio" name="qst-13" id="qst-13-2" value=2>
+                    <label class="qst_val" for="qst-13-3">3</label><input type="radio" name="qst-13" id="qst-13-3" value=3>
+                    <label class="qst_val" for="qst-13-4">4</label><input type="radio" name="qst-13" id="qst-13-4" value=4>
+                    <label class="qst_val" for="qst-13-5">5</label><input type="radio" name="qst-13" id="qst-13-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        다른 사람들이 날 어떻게 생각하는지가 중요하다.
+                    </p>
+                    <label class="qst_val" for="qst-14-1">1</label><input type="radio" name="qst-14" id="qst-14-1" value=1 checked>
+                    <label class="qst_val" for="qst-14-2">2</label><input type="radio" name="qst-14" id="qst-14-2" value=2>
+                    <label class="qst_val" for="qst-14-3">3</label><input type="radio" name="qst-14" id="qst-14-3" value=3>
+                    <label class="qst_val" for="qst-14-4">4</label><input type="radio" name="qst-14" id="qst-14-4" value=4>
+                    <label class="qst_val" for="qst-14-5">5</label><input type="radio" name="qst-14" id="qst-14-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        내가 어떤 일을 해낼 수 있을 것이라고 다른 사람들이 믿는지에 따라 종종 나의 실제 능력이 좌우된다.
+                    </p>
+                    <label class="qst_val" for="qst-15-1">1</label><input type="radio" name="qst-15" id="qst-15-1" value=1 checked>
+                    <label class="qst_val" for="qst-15-2">2</label><input type="radio" name="qst-15" id="qst-15-2" value=2>
+                    <label class="qst_val" for="qst-15-3">3</label><input type="radio" name="qst-15" id="qst-15-3" value=3>
+                    <label class="qst_val" for="qst-15-4">4</label><input type="radio" name="qst-15" id="qst-15-4" value=4>
+                    <label class="qst_val" for="qst-15-5">5</label><input type="radio" name="qst-15" id="qst-15-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        다른 사람들이 내게 화가 나 있으면 나 자신에 대해 긍정적으로 느끼기 어렵다.
+                    </p>
+                    <label class="qst_val" for="qst-16-1">1</label><input type="radio" name="qst-16" id="qst-16-1" value=1 checked>
+                    <label class="qst_val" for="qst-16-2">2</label><input type="radio" name="qst-16" id="qst-16-2" value=2>
+                    <label class="qst_val" for="qst-16-3">3</label><input type="radio" name="qst-16" id="qst-16-3" value=3>
+                    <label class="qst_val" for="qst-16-4">4</label><input type="radio" name="qst-16" id="qst-16-4" value=4>
+                    <label class="qst_val" for="qst-16-5">5</label><input type="radio" name="qst-16" id="qst-16-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        내가 나 자신에게 내리는 긍정적인 평가보다, 나에 대한 다른 사람들의 긍정적 평가에 더 잘 수긍하게 된다.
+                    </p>
+                    <label class="qst_val" for="qst-17-1">1</label><input type="radio" name="qst-17" id="qst-17-1" value=1 checked>
+                    <label class="qst_val" for="qst-17-2">2</label><input type="radio" name="qst-17" id="qst-17-2" value=2>
+                    <label class="qst_val" for="qst-17-3">3</label><input type="radio" name="qst-17" id="qst-17-3" value=3>
+                    <label class="qst_val" for="qst-17-4">4</label><input type="radio" name="qst-17" id="qst-17-4" value=4>
+                    <label class="qst_val" for="qst-17-5">5</label><input type="radio" name="qst-17" id="qst-17-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        다른 사람들이 나를 존중해준다는 느낌을 받으면 그렇지 않을 때보다 더 만족스럽다.
+                    </p>
+                    <label class="qst_val" for="qst-18-1">1</label><input type="radio" name="qst-18" id="qst-18-1" value=1 checked>
+                    <label class="qst_val" for="qst-18-2">2</label><input type="radio" name="qst-18" id="qst-18-2" value=2>
+                    <label class="qst_val" for="qst-18-3">3</label><input type="radio" name="qst-18" id="qst-18-3" value=3>
+                    <label class="qst_val" for="qst-18-4">4</label><input type="radio" name="qst-18" id="qst-18-4" value=4>
+                    <label class="qst_val" for="qst-18-5">5</label><input type="radio" name="qst-18" id="qst-18-5" value=5>
+                </div>
+
+
+                <div class="qst-box">
+                    <p class="qst">
+                        내가 두려워하는 나쁜 일들을 겪게 된 나 자신을 종종 상상한다.
+                    </p>
+                    <label class="qst_val" for="qst-19-1">1</label><input type="radio" name="qst-19" id="qst-19-1" value=1 checked>
+                    <label class="qst_val" for="qst-19-2">2</label><input type="radio" name="qst-19" id="qst-19-2" value=2>
+                    <label class="qst_val" for="qst-19-3">3</label><input type="radio" name="qst-19" id="qst-19-3" value=3>
+                    <label class="qst_val" for="qst-19-4">4</label><input type="radio" name="qst-19" id="qst-19-4" value=4>
+                    <label class="qst_val" for="qst-19-5">5</label><input type="radio" name="qst-19" id="qst-19-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        내 책임과 의무를 다하지 못할까봐 걱정된다.
+                    </p>
+                    <label class="qst_val" for="qst-20-1">1</label><input type="radio" name="qst-20" id="qst-20-1" value=1 checked>
+                    <label class="qst_val" for="qst-20-2">2</label><input type="radio" name="qst-20" id="qst-20-2" value=2>
+                    <label class="qst_val" for="qst-20-3">3</label><input type="radio" name="qst-20" id="qst-20-3" value=3>
+                    <label class="qst_val" for="qst-20-4">4</label><input type="radio" name="qst-20" id="qst-20-4" value=4>
+                    <label class="qst_val" for="qst-20-5">5</label><input type="radio" name="qst-20" id="qst-20-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        일반적으로 나는 내 인생에서 부정적인 사건을 예방하는 것에 초점을 맞춘다.
+                    </p>
+                    <label class="qst_val" for="qst-21-1">1</label><input type="radio" name="qst-21" id="qst-21-1" value=1 checked>
+                    <label class="qst_val" for="qst-21-2">2</label><input type="radio" name="qst-21" id="qst-21-2" value=2>
+                    <label class="qst_val" for="qst-21-3">3</label><input type="radio" name="qst-21" id="qst-21-3" value=3>
+                    <label class="qst_val" for="qst-21-4">4</label><input type="radio" name="qst-21" id="qst-21-4" value=4>
+                    <label class="qst_val" for="qst-21-5">5</label><input type="radio" name="qst-21" id="qst-21-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        일반적으로 나는 내 인생에서 긍정적인 결과들을 이루는 것에 초점을 맞춘다.
+                    </p>
+                    <label class="qst_val" for="qst-22-1">1</label><input type="radio" name="qst-22" id="qst-22-1" value=1 checked>
+                    <label class="qst_val" for="qst-22-2">2</label><input type="radio" name="qst-22" id="qst-22-2" value=2>
+                    <label class="qst_val" for="qst-22-3">3</label><input type="radio" name="qst-22" id="qst-22-3" value=3>
+                    <label class="qst_val" for="qst-22-4">4</label><input type="radio" name="qst-22" id="qst-22-4" value=4>
+                    <label class="qst_val" for="qst-22-5">5</label><input type="radio" name="qst-22" id="qst-22-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        내가 바라는 좋은 일들을 누리는 나 자신을 종종 상상한다.
+                    </p>
+                    <label class="qst_val" for="qst-23-1">1</label><input type="radio" name="qst-23" id="qst-23-1" value=1 checked>
+                    <label class="qst_val" for="qst-23-2">2</label><input type="radio" name="qst-23" id="qst-23-2" value=2>
+                    <label class="qst_val" for="qst-23-3">3</label><input type="radio" name="qst-23" id="qst-23-3" value=3>
+                    <label class="qst_val" for="qst-23-4">4</label><input type="radio" name="qst-23" id="qst-23-4" value=4>
+                    <label class="qst_val" for="qst-23-5">5</label><input type="radio" name="qst-23" id="qst-23-5" value=5>
+                </div>
+                <div class="qst-box">
+                    <p class="qst">
+                        나의 꿈과 열망을 위해 "이상적인 나의 모습"에 도달하려고 노력한다.
+                    </p>
+                    <label class="qst_val" for="qst-24-1">1</label><input type="radio" name="qst-24" id="qst-24-1" value=1 checked>
+                    <label class="qst_val" for="qst-24-2">2</label><input type="radio" name="qst-24" id="qst-24-2" value=2>
+                    <label class="qst_val" for="qst-24-3">3</label><input type="radio" name="qst-24" id="qst-24-3" value=3>
+                    <label class="qst_val" for="qst-24-4">4</label><input type="radio" name="qst-24" id="qst-24-4" value=4>
+                    <label class="qst_val" for="qst-24-5">5</label><input type="radio" name="qst-24" id="qst-24-5" value=5>
+                </div>
+
+                <button id="result">결과 보기</button>
+                <div class="chart_container" id="chart_container">
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </div>
+
+                <p id="result_text"></p>
+            </div>
+        </div>
+    </body>
+    <script>
+        $(document).ready(function(){
+            
+                     
+        });
+
+        $(document).on('click', '#result', function(){
+            var v1 = getAvg(getVal('qst-1'), getVal('qst-2'));
+            var v2 = getAvg(getVal('qst-3'), getVal('qst-4'));
+            var v3 = getAvg(getVal('qst-5'), getVal('qst-6'));
+            var v4 = getAvg(getVal('qst-7'), getVal('qst-8'));
+            var v5 = getAvg(getVal('qst-9'), getVal('qst-10'));
+
+            setChart(v1, v2, v3, v4, v5);
+            getResult();
+        });
+
+        function getVal(id){
+            var $target = $('input[name="'+id+'"]:checked');
+            return $target.val();
+        }
+
+        function getAvg(v1, v2){
+            return (parseInt(v1) + parseInt(v2)) / 10 * 100;
+        }
+
+        function setChart(v1, v2, v3, v4, v5){
+            $('#myChart').remove();
+            var chartHtml = '<canvas id="myChart" width="400" height="400"></canvas>';
+            $('#chart_container').append(chartHtml);
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['실수에 대한 지나친 염려', '부모의 높은 기대', '철저한 정리 정돈 습관', '행동에 대한 의심', '높은 성취 기준'],
+                    datasets: [{
+                        label: '결과',
+                        data: [v1, v2, v3, v4, v5],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: false,
+                    scale: {
+                        gridLines: {
+                        color: "black",
+                        lineWidth: 1
+                        },
+                        angleLines: {
+                        display: false
+                        },
+                        ticks: {
+                        beginAtZero: true,
+                        min: 0,
+                        max: 100,
+                        stepSize: 20
+                        },
+                        pointLabels: {
+                        fontSize: 12,
+                        fontColor: "black"
+                        }
+                    },
+                    legend: {
+                        display: false
+                    }
+                }
+            });   
+        }
+
+        function getResult(){
+            var v1 = 0, v2 = 0;
+
+            for(var i=11; i<=18; i++){
+                v1 += parseInt(getVal('qst-' + i));
+            }
+            
+            v2 =    ((parseInt(getVal('qst-22')) + parseInt(getVal('qst-23')) + parseInt(getVal('qst-24'))) / 3.00).toFixed(2) -
+                    ((parseInt(getVal('qst-19')) + parseInt(getVal('qst-20')) + parseInt(getVal('qst-21'))) / 3.00).toFixed(2) ;
+
+            //v1 : 자기 평가소개, v2 : 조절초점
+
+            var res;
+
+            console.log(v1);
+            console.log(v2);
+
+            if(v1 > 32 && v2 > 1) res = '눈치백단 인정추구형'
+            else if(v1 <= 32 && v2 > 1) res = '강철멘탈 성장지향형'
+            else if(v1 > 32 && v2 <= 1) res = '스릴추구 막판스퍼트형'
+            else if(v1 <= 32 && v2 <= 1) res = '방탄조끼 안전지향형'
+            else res = 'NaN';
+
+            $('#result_text').html(res);
+        }
+
+    </script>
+</html>

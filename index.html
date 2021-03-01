@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>네 명의 완벽주의자</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="[네 명의 완벽주의자 테스트]"/>
+        <meta property="og:description" content="24문항으로 이루어진 테스트를 통해 완벽주의자 성향을 도표로 보실 수 있습니다."/>
+        <meta property="og:image" content="/content/media/img/grow-type-2.jpg"/>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/content/css/reset.css" />
+        <link rel="stylesheet" href="/content/css/index.css" />
+    </head>
+
+    <script src="/content/lib/jquery-3.5.1-slim.js"></script>
+    <script src="https://kit.fontawesome.com/6f4d922649.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="/content/js/common.js"></script>
+    <script src="/content/js/index.js"></script>
+
+    <body>
+        <header>
+            <div class="hleft">로고1</div>
+            <div class="hright">로고2</div>
+        </header>
+
+        <div class="main_container">
+            <div class="page" id="page_top">
+                <div class="inner">
+                    <div class="title_box">
+                        <p class="title">
+                            네 명의 완벽주의자 테스트
+                        </p>
+                        <div class="subj_box">
+                            <p class="s_title">
+                                24문항으로 이루어진 테스트를 통해 완벽주의자 성향을 도표로 보실 수 있습니다.
+                            </p>
+                        </div>
+                        <div class="subj_box">
+                            <p class="s_title">
+                                성향의 값에 따른 네 가지의 완벽주의자 유형과 그에 따른 설명을 보실 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="page_inner">
+                <div class="page content show" id="page_01">
+                    <img class="main_img" src="/content/media/img/main-img.jpg"/>
+                </div>
+            </div>
+
+            <div class="page" id="page_bottom">
+                <div class="btn" id="btn_next">
+                    <span id="btn_text">시작하기</span>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="link_box">
+                    <div class="link_btn" id="copy_kakao">
+                        <div class="link_icon">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <span class="link_text">카카오톡</span>
+                    </div>
+                    <div class="link_btn" id="copy_link">
+                        <div class="link_icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <span class="link_text">링크복사</span>
+                        <input type="hidden" id="url"/>
+                    </div>
+                </div>
+                <div class="book_link">
+                    <a href="https://book.naver.com/bookdb/book_detail.nhn?bid=18005295" target="_blank">
+                        <img src="/content/media/img/book-1.jpg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="f_title">
+                본 질문지는 &lt;네 명의 완벽주의자&gt; 독자들 스스로 쉽게 실시해볼 수 있도록 재구성한 단축형 질문지 입니다. 심리학 연구결과에 입각한 신뢰롭고 타당한 질문지 원문은 다음의 출처에서 확인하시기 바랍니다. 질문지의 저작권 역시 원저자들에게 있습니다.
+            </p>
+            <p class="f_inf">질문지 출처</p>
+            <p class="fs_title">
+                완벽주의 질문지
+            </p>
+            <p class="fs_subj">
+                Lee, D-G. & Park, H. J. (2011). Cross-cultural validity of the frost multidimensional perfectionism scale in Korea. The Counseling Psychologist, 39(2), 320-345.
+            </p>
+            <p class="fs_title">
+                자기평가소재 질문지
+            </p>
+            <p class="fs_subj">
+                이동귀, 이수란 (2008). 고등학생의 자기 평가 소재 하위요인 군집이 정신건강에 미치는 영향. 한국청소년연구, 19(1), 269-293.
+            </p>
+            <p class="fs_title">
+                조절초점 질문지
+            </p>
+            <p class="fs_subj">
+                양윤, 김은숙 (2008). 성향 및 상황 조절초점과 과제수행 피드백이 소비자 감정에 미치는 영향. 한국심리학회지: 소비자· 광고, 9(3), 407-433.
+            </p>
+        </footer>
+    </body>
+</html>

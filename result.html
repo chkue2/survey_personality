@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>네 명의 완벽주의자</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="[네 명의 완벽주의자 테스트]"/>
+        <meta property="og:description" content="24문항으로 이루어진 테스트를 통해 완벽주의자 성향을 도표로 보실 수 있습니다."/>
+        <meta property="og:image" content="/content/media/img/grow-type-2.jpg"/>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/content/css/reset.css" />
+        <link rel="stylesheet" href="/content/css/index.css" />
+        <link rel="stylesheet" href="/content/css/result.css" />
+    </head>
+
+    <script src="/content/lib/jquery-3.5.1-slim.js"></script>
+    <script src="https://kit.fontawesome.com/6f4d922649.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script src="/content/js/common.js"></script>
+    <script src="/content/js/result.js"></script>
+
+    <body>
+        <header>
+            <div class="hleft">로고1</div>
+            <div class="hright">로고2</div>
+        </header>
+
+        <div class="res_inner">
+            <p class="res_title">"당신은 <span id="title_type">눈치백단 인정구추형</span>입니다"</p>
+            <div id="chart_box">
+                <canvas class="chart" id="chart" width="300" height="300"></canvas>
+            </div>
+            <div class="res_content">
+                <p class="c_title" id="c_title">"누구에게든 쉽게 호감을 얻지만 타인을 신경 쓰느라 정작 자신에게는 소홀한 유형"</p>
+                <p class="c_subj" id="c_subj">
+                    한국인 대상으로 실시한 설문조사 결과에 의하면 가장 많은 유형의 완벽주의자들이 이 유형에 속하며(약 38퍼센트) 다른 유형보다 완벽주의 수준이 가장 높다. 이들은 다른 사람에게 인정을 받기 위해 움직이기 때문에 언제나 상냥하고 친절하며, 다른 사람의 일을 돕는 데 망설임 없이 나선다. 또한 매우 사교적이고 친절해서 딱 봐도 호감이 가는, 그야말로 ‘만인에게 좋은 사람’이다. 사람을 가장 큰 재산으로 여기기 때문에 꼭 필요하지 않은 사람과도 좋은 관계를 유지하기 위해 애쓰며, 칭찬에 약한 탓에 자신이 해내기 어려운 일도 칭찬을 해주며 부탁하면 덥석 받아들이고 나서 혼자서 속을 끓이는 경향이 있다.
+                </p>
+                <div class="c_tag" id="c_tag">
+                    <span>♯일단 친절</span>
+                    <span>♯사람이 재산</span>
+                    <span>♯칭찬은 나의 원동력</span>
+                    <span>♯인정받지 못하면 불안</span>
+                    <span>♯자기 돌봄에 소홀</span>
+                </div>
+            </div>
+            <img class="type_img" id="type_img" src="/content/media/img/seeking-type.jpg"/>
+        </div>
+        <div class="book_inner">
+            <p class="book_content">
+                20년간의 완벽주의 연구로 도출해낸</br>
+                흔들림 없는 멘탈 강화 프로젝트를 알고 싶다면</br>
+                &lt;네 명의 완벽주의자&gt;를 만나보세요.
+            </p>
+            <p class="book_title">
+                ‘내 안의 완벽주의로 더 행복한 나를 만드는 법’</br>
+                <span>&lt;네 명의 완벽주의자&gt;</span>
+            </p>
+            <img class="book_img" id="book_img" src="/content/media/img/book-1.jpg"/>
+            <p class="link_title">결과 공유하기</p>
+            <div class="link_box">
+                <div class="link_btn" id="copy_kakao">
+                    <div class="link_icon">
+                        <i class="fas fa-comment"></i>
+                    </div>
+                    <span class="link_text">카카오톡</span>
+                </div>
+                <div class="link_btn" id="copy_link">
+                    <div class="link_icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <span class="link_text">링크복사</span>
+                </div>
+            </div> 
+            <div class="rebtn" id="rebtn">테스트 다시하기</div>
+        </div>
+    </body>
+</html>
