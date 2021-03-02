@@ -33,6 +33,15 @@ function sendLink() {
                 mobileWebUrl: url,
                 webUrl: url
             }
-        }
+        },
+        buttons: [
+            {
+                title: '자세히 보기',
+                link: {
+                    mobileWebUrl: url,
+                    webUrl: url
+                }
+            }
+        ]
     });
 }
