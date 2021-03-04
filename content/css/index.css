@@ -58,8 +58,8 @@ header{
 .qst_box{
     border-bottom: 1px solid #d9d9d9;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 5px;
+    box-sizing: border-box;
 }
 .qst{
     font-size: 18px;
@@ -77,8 +77,6 @@ header{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0px 20px;
-    box-sizing: border-box;
 }
 .anw_lv{
     width: 100%;

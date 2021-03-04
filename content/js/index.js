@@ -81,10 +81,14 @@ function setServeyPage(){
                             '</p>' +
                             '<div class="qst_val_box">' +
                                 '<label class="qst_val qst_f" for="qst-'+qesCnt+'-1"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-1" value=1></label>' +
-                                '<label class="qst_val" for="qst-'+qesCnt+'-2"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-2" value=3></label>' +
-                                '<label class="qst_val" for="qst-'+qesCnt+'-3"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-3" value=5></label>' +
-                                '<label class="qst_val" for="qst-'+qesCnt+'-4"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-4" value=7></label>' +
-                                '<label class="qst_val qst_l" for="qst-'+qesCnt+'-5"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-5" value=9></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-2"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-2" value=2></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-3"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-3" value=3></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-4"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-4" value=4></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-5"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-5" value=5></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-6"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-6" value=6></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-7"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-7" value=7></label>' +
+                                '<label class="qst_val" for="qst-'+qesCnt+'-8"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-8" value=8></label>' +
+                                '<label class="qst_val qst_l" for="qst-'+qesCnt+'-9"><input type="radio" name="qst-'+qesCnt+'" id="qst-'+qesCnt+'-9" value=9></label>' +
                             '</div>' +
                             '<p class="anw_lv">' +
                                 '<span>전혀 그렇지 않다</span>' +
